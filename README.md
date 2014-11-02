@@ -11,12 +11,7 @@ For more information please visit the website at [Developer Library](http://deve
 
 ## Functionalities
 
-Play
-Pause
-Next Song
-Pre Song
-List Playlists
-Play songs within the Playlist
+Play / Pause /Next Song / Pre Song / List Playlists / Play songs within the Playlist
 
 ## Copyright and License
 Copyright 2014 Eayon Dong
