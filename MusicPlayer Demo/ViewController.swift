@@ -43,6 +43,11 @@ class ViewController: UIViewController, PlayListTVCDelegate {
         // Notification for playState
         notificationCenter.addObserver(self, selector: "handlePlayState", name: MPMusicPlayerControllerPlaybackStateDidChangeNotification, object: musicPlayer)
         musicPlayer.beginGeneratingPlaybackNotifications()
+        
+        if (musicPlayer.playbackState == MPMusicPlaybackState.Playing) {
+            playButton.setTitle("Pause", forState: UIControlState.Normal)
+            self.isPlay = true
+        }
 
     }
 
